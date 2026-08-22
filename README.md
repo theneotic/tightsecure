@@ -4,6 +4,26 @@
 
 [Open the live demo](https://tightsecure.vercel.app) · [View the source](https://github.com/theneotic/tightsecure)
 
+## Live interface
+
+<p align="center">
+  <a href="https://tightsecure.vercel.app">
+    <img src="./assets/tightsecure-live-interface.webp" alt="Tight Secure live interface showing password analysis, password statistics, and a security tip" width="100%" />
+  </a>
+</p>
+
+<p align="center"><sub>Live interface captured from the public demo. Select the image to open Tight Secure.</sub></p>
+
+## Features
+
+| Feature | What it provides |
+|---|---|
+| Strength analysis | Reviews password length, character variety, and practical strength signals before presenting guidance. |
+| Live statistics | Shows the password-character breakdown and related security statistics after analysis. |
+| Password generation | Builds a new password from a chosen length and selected uppercase, lowercase, numeric, and symbol sets. |
+| Actionable feedback | Provides a strength state, requirements checklist, and estimated crack-time guidance. |
+| Local interaction | Runs in the browser without an account or server-side database. |
+
 ## What it does
 
 Tight Secure has two browser-based tools. The **Generator** creates passwords with a chosen length and selected character types: uppercase letters, lowercase letters, numbers, and symbols. The **Analyser** checks a password against practical strength signals, including length and character variety, then presents a strength state and estimated crack-time guidance.
